@@ -1,203 +1,159 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Zakia Home — ambient candlelight and home rituals inspired by nature. Feel at home." />
-  <title>Zakia Home — Feel at Home</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f6f2ea">
+  <meta name="description" content="Zakia Home — Candle Pearls. Pour, wick, light and renew. Feel at home.">
+  <title>Zakia Home — Candle Pearls</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+  <div class="topbar">ZAKIA HOME · FEEL AT HOME</div>
+
   <header class="site-header">
-    <a class="brand" href="#home" aria-label="Zakia Home">
-      <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 44 44" role="img">
-          <path d="M22 4.8c3.8 5.7 8.1 9.4 8.1 15.2A8.1 8.1 0 1 1 13.9 20C13.9 14.2 18.2 10.5 22 4.8Z" fill="none" stroke="currentColor" stroke-width="1.35"/>
-          <path d="M22 14c2 3.1 4.1 5.3 4.1 8.3a4.1 4.1 0 1 1-8.2 0C17.9 19.3 20 17.1 22 14Z" fill="currentColor" opacity=".86"/>
-        </svg>
-      </span>
-      <span class="brand-type">ZAKIA <small>HOME</small></span>
-    </a>
-
-    <nav class="desktop-nav" aria-label="Primary navigation">
-      <a href="#ritual">The Ritual</a>
-      <a href="#collection">Collection</a>
-      <a href="#story">Our Story</a>
-      <a href="#contact">Contact</a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <a class="logo" href="#top">ZAKIA <span>HOME</span></a>
+    <nav class="nav">
+      <a href="#shop">Shop</a>
+      <a href="#how">How it works</a>
+      <a href="#story">About</a>
     </nav>
-
-    <button class="menu-button" aria-label="Open menu" aria-expanded="false">
-      <span></span><span></span>
-    </button>
+    <a class="shop-link" href="#shop">Shop</a>
   </header>
 
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-visual" aria-hidden="true">
-        <div class="sun"></div>
-        <div class="horizon h1"></div>
-        <div class="horizon h2"></div>
-        <div class="horizon h3"></div>
-        <div class="flame"></div>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-media">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="assets/zakia-ritual.mp4" type="video/mp4">
+        </video>
+        <div class="video-label">ZAKIA RITUAL</div>
       </div>
 
-      <div class="hero-copy reveal">
-        <p class="eyebrow">LIGHT · RITUAL · HOME</p>
-        <h1>A quiet light<br>to come home to.</h1>
-        <p class="hero-text">Atmosphere made simple. Soft light, natural textures and intentional rituals designed to make any space feel warmer, calmer and more yours.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#collection">Discover Zakia</a>
-          <a class="text-link" href="#story">Our philosophy <span>↗</span></a>
-        </div>
-      </div>
+      <div class="hero-copy">
+        <p class="eyebrow">CANDLE PEARLS</p>
+        <h1>Create a candle<br>in almost any vessel.</h1>
+        <p class="lead">Pourable candle pearls for a warm, simple ritual. Pour. Wick. Light. Renew.</p>
+        <a class="primary-cta" href="#shop">SHOP CANDLE PEARLS</a>
 
-      <p class="hero-tagline">feel at home</p>
-    </section>
-
-    <section class="manifesto section-pad" id="ritual">
-      <div class="section-kicker">01 · THE RITUAL</div>
-      <div class="manifesto-grid">
-        <h2 class="reveal">Home is not a place.<br><em>It is a feeling.</em></h2>
-        <div class="manifesto-copy reveal">
-          <p>Zakia Home is inspired by the moments that bring us back to ourselves: the glow of a fire, the silence of a forest, the horizon over water, the warmth of wood and the comfort of a familiar room.</p>
-          <p>Our objects are made to create atmosphere without noise — simple, tactile and timeless.</p>
+        <div class="micro-benefits">
+          <span>↻ Reusable concept</span>
+          <span>◇ Simple ritual</span>
+          <span>⌂ Made for home</span>
         </div>
       </div>
     </section>
 
-    <section class="sensory-band" aria-label="Zakia Home sensory inspirations">
-      <div><span>01</span> warm light</div>
-      <div><span>02</span> natural texture</div>
-      <div><span>03</span> slow ritual</div>
-      <div><span>04</span> quiet refuge</div>
+    <section class="intro-strip">
+      <div><b>01</b><span>Pour</span></div>
+      <div><b>02</b><span>Wick</span></div>
+      <div><b>03</b><span>Light</span></div>
+      <div><b>∞</b><span>Renew</span></div>
     </section>
 
-    <section class="collection section-pad" id="collection">
+    <section class="video-guide" id="how">
       <div class="section-heading">
-        <div>
-          <div class="section-kicker">02 · COLLECTION</div>
-          <h2>Objects for<br>slower evenings.</h2>
-        </div>
-        <p>Designed around flexible candlelight and a calm, natural palette. A collection that adapts to your space and your mood.</p>
+        <p class="eyebrow">HOW IT WORKS</p>
+        <h2>Simple from the first pour.</h2>
+        <p>Two short demonstrations show the full Zakia ritual.</p>
       </div>
 
-      <div class="product-grid">
-        <article class="product-card reveal">
-          <div class="product-art pearl-art">
-            <div class="bowl">
-              <span class="wick"></span>
-              <span class="mini-flame"></span>
-              <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-            </div>
+      <div class="tutorial-grid">
+        <article class="tutorial-card">
+          <div class="video-shell">
+            <video autoplay muted loop playsinline preload="metadata">
+              <source src="assets/zakia_01_pour.mp4" type="video/mp4">
+            </video>
           </div>
-          <div class="product-meta">
-            <div>
-              <h3>Candle Pearls</h3>
-              <p>Pour · place · light</p>
-            </div>
+          <div class="tutorial-copy">
             <span>01</span>
-          </div>
-        </article>
-
-        <article class="product-card reveal">
-          <div class="product-art vessel-art">
-            <div class="wood-disc"></div>
-            <div class="vessel">
-              <span class="wick"></span>
-              <span class="mini-flame"></span>
-            </div>
-          </div>
-          <div class="product-meta">
             <div>
-              <h3>Signature Vessel</h3>
-              <p>Simple forms · warm materials</p>
+              <h3>Pour</h3>
+              <p>Fill a stable, heat-safe vessel with Candle Pearls to the desired level.</p>
             </div>
-            <span>02</span>
           </div>
         </article>
 
-        <article class="product-card reveal">
-          <div class="product-art ritual-art">
-            <div class="ritual-box">
-              <span class="line"></span>
-              <strong>ZAKIA</strong>
-              <small>feel at home</small>
-            </div>
+        <article class="tutorial-card">
+          <div class="video-shell">
+            <video autoplay muted loop playsinline preload="metadata">
+              <source src="assets/zakia_02_wick_light_renew.mp4" type="video/mp4">
+            </video>
           </div>
-          <div class="product-meta">
+          <div class="tutorial-copy">
+            <span>02–04</span>
             <div>
-              <h3>Home Ritual Set</h3>
-              <p>Light · refill · repeat</p>
+              <h3>Wick · Light · Renew</h3>
+              <p>Insert the wick, light your candle, then refresh the surface and reuse the remaining pearls.</p>
             </div>
-            <span>03</span>
           </div>
         </article>
       </div>
     </section>
 
-    <section class="feature">
-      <div class="feature-copy reveal">
-        <p class="eyebrow">A DIFFERENT WAY TO LIGHT</p>
-        <h2>Make it yours.</h2>
-        <p>Use your favorite vessel, change the shape, refresh the surface and create a new candle whenever you want. Zakia is designed as a ritual you can recreate.</p>
-        <a class="button light" href="#contact">Learn more</a>
+    <section class="shop" id="shop">
+      <div class="section-heading">
+        <p class="eyebrow">THE COLLECTION</p>
+        <h2>Made for home.</h2>
       </div>
-      <div class="feature-visual" aria-hidden="true">
-        <div class="moon"></div>
-        <div class="lake-lines"></div>
-        <div class="glow-bowl"><span></span></div>
+
+      <div class="products">
+        <article>
+          <div class="product-image pearl">ZAKIA<small>CANDLE PEARLS</small></div>
+          <h3>Candle Pearls</h3>
+          <p>Natural white · refill</p>
+          <strong>COMING SOON</strong>
+        </article>
+
+        <article>
+          <div class="product-image kit">ZAKIA<small>HOME KIT</small></div>
+          <h3>Home Kit</h3>
+          <p>Pearls · wicks · vessel</p>
+          <strong>COMING SOON</strong>
+        </article>
+
+        <article>
+          <div class="product-image wick">ZAKIA<small>WICK SET</small></div>
+          <h3>Wick Set</h3>
+          <p>Refresh your candle</p>
+          <strong>COMING SOON</strong>
+        </article>
       </div>
     </section>
 
-    <section class="story section-pad" id="story">
-      <div class="section-kicker">03 · OUR STORY</div>
-      <div class="story-layout">
-        <div class="story-quote reveal">“Create a small refuge,<br>wherever you are.”</div>
-        <div class="story-body reveal">
-          <p>We believe the strongest brands — and the most meaningful homes — are built through simple things repeated with intention.</p>
-          <p>Zakia brings together light, nature and sensory calm in a language that feels contemporary but never temporary.</p>
-          <div class="signature">ZAKIA HOME <span>· feel at home</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="newsletter" id="contact">
+    <section class="story" id="story">
       <div>
-        <p class="eyebrow">STAY CLOSE TO HOME</p>
-        <h2>Join the Zakia circle.</h2>
-        <p>New objects, rituals and stories — quietly delivered.</p>
+        <p class="eyebrow">ZAKIA HOME</p>
+        <h2>Inspired by nature.<br>Made for home.</h2>
+        <p>Zakia is about small rituals that make a space feel warmer, calmer and more yours.</p>
       </div>
-      <form class="signup-form" onsubmit="event.preventDefault(); this.classList.add('submitted');">
-        <label class="sr-only" for="email">Email</label>
-        <input id="email" type="email" placeholder="Your email" required>
-        <button type="submit">Join <span>→</span></button>
-        <small class="success">Thank you. Welcome home.</small>
-      </form>
+    </section>
+
+    <section class="faq">
+      <p class="eyebrow">GOOD TO KNOW</p>
+      <details>
+        <summary>What are Candle Pearls?</summary>
+        <p>Loose wax pearls designed to be poured into a suitable candle-safe vessel and used with a wick.</p>
+      </details>
+      <details>
+        <summary>Can I reuse them?</summary>
+        <p>The ritual is designed around replacing the used wick and reusing the remaining clean pearls.</p>
+      </details>
+      <details>
+        <summary>What kind of vessel should I use?</summary>
+        <p>Use only stable, heat-resistant, non-flammable vessels suitable for candle use and follow the final safety instructions supplied with Zakia.</p>
+      </details>
     </section>
   </main>
 
   <footer>
-    <a class="brand footer-brand" href="#home">
-      <span class="brand-type">ZAKIA <small>HOME</small></span>
-    </a>
-    <div class="footer-center">Designed for quiet moments.</div>
-    <div class="footer-right">
-      <a href="#">Instagram</a>
-      <a href="mailto:hello@zakiahome.com">Email</a>
-      <span>© <span id="year"></span> Zakia Home</span>
-    </div>
+    <b>ZAKIA HOME</b>
+    <span>feel at home</span>
+    <span>© 2026 Zakia Home</span>
   </footer>
 
-  <div class="mobile-menu" aria-hidden="true">
-    <a href="#ritual">The Ritual</a>
-    <a href="#collection">Collection</a>
-    <a href="#story">Our Story</a>
-    <a href="#contact">Contact</a>
-  </div>
+  <a class="mobile-cta" href="#shop">SHOP CANDLE PEARLS</a>
 
   <script src="script.js"></script>
 </body>
