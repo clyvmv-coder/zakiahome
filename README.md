@@ -1,15 +1,19 @@
-# Zakia Home V5
+# Zakia Home V7
 
-Responsive GitHub Pages-ready website with 3 original AI-generated Zakia videos.
+Responsive GitHub Pages-ready website.
 
-## Structure
+## Changes in V7
+- Removed all videos and MP4 files.
+- Added the latest Zakia Home instructional storyboard.
+- Removed duplicated "How it works" content.
+- Kept one clear instructional section only.
+- Mobile-friendly layout.
+
+## Main files
 - index.html
 - styles.css
 - script.js
-- .nojekyll
-- assets/zakia-ritual.mp4
-- assets/zakia_01_pour.mp4
-- assets/zakia_02_wick_light_renew.mp4
+- CNAME
+- assets/zakiahome-como-funciona-storyboard.png
 
-## Publish
-Upload all files and the `assets` folder to the root of the `zakiahome` GitHub repository and commit the changes.
+Upload the complete contents to the root of the GitHub repository and commit.

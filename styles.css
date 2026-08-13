@@ -118,3 +118,109 @@ footer{padding:30px 5vw;background:white;border-top:1px solid #ddd7cd;display:fl
   .section-heading h2,.story h2{font-size:37px}
   .micro-benefits{flex-direction:column;gap:8px}
 }
+
+.howto-image-section{
+  padding:90px 5vw;
+  background:#313822;
+  color:#eee5d3;
+}
+.howto-image-section .section-heading{
+  margin-bottom:34px;
+}
+.howto-image-section .section-heading h2{
+  color:#eee5d3;
+}
+.howto-image{
+  width:100%;
+  height:auto;
+  display:block;
+  border-radius:2px;
+  box-shadow:0 18px 50px rgba(0,0,0,.18);
+}
+@media(max-width:700px){
+  .howto-image-section{padding:62px 14px}
+  .howto-image-section .section-heading{padding:0 4px}
+  .howto-image{border-radius:0}
+}
+
+/* V7 — no videos, single non-duplicated instructional section */
+.hero-static{
+  min-height:650px;
+  background:
+    radial-gradient(circle at 72% 28%, rgba(195,170,118,.18), transparent 24%),
+    radial-gradient(circle at 35% 70%, rgba(255,255,255,.05), transparent 28%),
+    linear-gradient(145deg,#26301f 0%,#3b452d 52%,#1e2619 100%);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.hero-mark{
+  color:#eee4cf;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:6px;
+  letter-spacing:.24em;
+  text-shadow:0 1px 12px rgba(0,0,0,.15);
+}
+.hero-mark span{
+  font-family:Georgia,serif;
+  font-size:clamp(42px,6vw,78px);
+  letter-spacing:.22em;
+  line-height:1;
+}
+.hero-mark small{
+  font-size:12px;
+  letter-spacing:.55em;
+  margin-left:.55em;
+}
+.hero-mark em{
+  margin-top:18px;
+  font-style:normal;
+  font-size:9px;
+  letter-spacing:.28em;
+  opacity:.85;
+}
+
+.howto-storyboard{
+  padding:86px 5vw 96px;
+  background:#30381f;
+  color:#eee4cf;
+}
+.centered-heading{
+  margin:0 auto 38px;
+  text-align:center;
+}
+.centered-heading h2{
+  color:#eee4cf;
+}
+.storyboard-image{
+  display:block;
+  width:min(100%,760px);
+  height:auto;
+  margin:0 auto;
+  box-shadow:0 18px 60px rgba(0,0,0,.24);
+}
+.video-guide,
+.tutorial-grid,
+.tutorial-card,
+.video-shell,
+.howto-image-section{
+  display:none !important;
+}
+
+@media(max-width:900px){
+  .hero-static{min-height:460px}
+}
+@media(max-width:700px){
+  .hero-static{min-height:330px}
+  .hero-mark span{font-size:46px}
+  .hero-mark small{font-size:9px}
+  .howto-storyboard{padding:58px 0 72px}
+  .centered-heading{padding:0 18px;margin-bottom:26px}
+  .storyboard-image{
+    width:100%;
+    box-shadow:none;
+  }
+}
